@@ -7,20 +7,20 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: db
+  host: localhost
   username: postgres
   password: postgres
-  pool: 5
+  pool: 5testDB
 
 development:
   <<: *default
-  database: myapp_development
+  database: testDB
 
 
 test:
   <<: *default
-  database: myapp_test
+  database: testDB
 
 production:
   <<: *default
-  database: myapp_production
+  database: testDB
