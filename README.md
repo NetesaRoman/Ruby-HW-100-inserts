@@ -1,24 +1,7 @@
-# README
+Роботу виконав Нетеса Роман КС31
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Для запуску програми потрібно спочатку запустити докерфайл буде створено два контейнери для rails та postgres
 
-Things you may want to cover:
+у програмі була згенерована модель Task, яка може мати статус лише "в_ожидании", "в_работе" або "закончен"
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Усі дії з додавання читання видалення та апдейту моделі виконував через rails c
